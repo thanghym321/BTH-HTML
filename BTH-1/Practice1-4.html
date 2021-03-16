@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #menu a {
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        #menu ul {
+            background-color:royalblue;
+            list-style-type: none;
+            border-radius: 10px;
+        }
+        #menu > ul > li {
+            display: inline-block;
+            width: 120px;
+            position: relative;
+            line-height: 60px;
+            text-align: center;
+        }
+        .submenu > li {
+            position: relative;
+        }
+        #menu ul li:hover {
+            background-color: rgb(212, 212, 89);
+        }
+        .submenu {
+            display: none;
+            position: absolute;
+        }
+        #menu ul li:hover .submenu {
+            display: block;
+            border-radius: 0px;
+        }
+        .submenu1 {
+            display: none;
+            position: absolute;
+            top: 0px;
+            right: -200px;
+        }
+        .submenu > li:hover .submenu1 {
+            display: block;
+        }
+        .submenu li {
+            font-size: 17px;
+            padding-left: 10px;
+            line-height: 30px;
+            width: 200px;
+            text-align: left;
+        }
+        #menu {
+            position: -webkit-sticky;
+            position: sticky;
+            width: 100%;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <section id= "menu">
+    <ul>
+        <li><a href= "#"> Trang chủ </a></li>
+        <li><a href= "#"> Giới thiệu </a>
+            <ul class= "submenu">
+                <li><a href= "#">Lịch sử phát triển</a></li>
+                <li><a href= "#">Tầm nhìn và sứ mệnh</a></li>
+                <li><a href= "#">Cơ cấu tổ chức</a>
+                </li>
+            </ul>
+        </li>
+        <li><a href= "#"> Tin tức </a></li>
+        <li><a href= "#"> Sản phẩm </a></li>
+        <li><a href= "#"> Giải pháp </a></li>
+        <li><a href= "#"> Khách hàng </a></li>
+        <li><a href= "#"> Tuyển dụng </a></li>
+        <li><a href= "#"> Liên hệ </a></li>
+    </ul>
+    </section>
+</body>
+</html>
