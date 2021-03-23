@@ -10,7 +10,7 @@
                 width: 80%;
                 margin-left: 10%;
                 margin-right: 10%;
-                border: 2px solid;
+                border: solid 2px;
                 box-sizing: border-box;
             }
             #anh{
@@ -18,16 +18,15 @@
                 height: 100%;
             }
             #avatar{
-                height: 100%;
-                width: 90%;
-                margin-left: 5%;
-                margin-top: 5%;
+                height: 250px;
+                width: 180px;
+                position: absolute;
+                left: 20px;
             }
             .box{
                 float: left;
                 height: 100%;
-                border: 2px solid;
-                box-sizing: border-box;
+                position: relative;               
             }
         </style>
     </head>
@@ -35,12 +34,12 @@
         <div class="khung" style="height: 300px;">
             <img id="anh" src="Images/abc.png" alt="hình ảnh header">
         </div>
-        <div class="khung" style="height: 500px;;">
-            <div class="box" style="width: 18%; background-color: rgb(76, 247, 113);">
-                <h2 style="margin-top: 1%;">
+        <div class="khung" style="height: 500px;">
+            <div class="box" style="width: 18%; background-color: rgb(76, 247, 113); font-size: 20px;">
+                <h3 style="margin-top: 2px;">
                     TRANG CHỦ
-                </h2>
-                <ul style="font-size: 20px;">
+                </h3>
+                <ul>
                     <li>
                         Lưu bút
                     </li>
@@ -54,10 +53,10 @@
                         Đọc truyện
                     </li>
                 </ul>
-                <h2>
+                <h3>
                     TÌNH YÊU
-                </h2>
-                <ul style="font-size: 20px;">
+                </h3>
+                <ul>
                     <li>
                         Thơ tình
                     </li>
@@ -70,90 +69,68 @@
                 </ul>
             </div>
             <div class="box" style="width: 64%; background-color: rgb(255, 255, 255);">
-                <h2 style="text-align: center;">
+                <h1 style="text-align: center; font-size: 25px;">
                     THÔNG TIN CÁ NHÂN
-                </h2>
-                <div  style="width: 100%; height: 300px; background-color: sandybrown;">
-                    <div style="height: 90%; width: 30%; float: left;">
-                        <img id="avatar" src="Images/avatar.png" alt="Avatar">
-                    </div>
-                    <div style="height: 100%; width: 15%; float: left; font-size: 17px;">
-                        <p>Họ và tên:</p>
-                        <p>Giới tính:</p>
-                        <p>Ngày sinh:</p>
-                        <p>Quê quán:</p>
-                        <p>E-mail:</p>
-                        <p>Điện thoại:</p>
-                        <p>Website:</p>
-                    </div>
-                    <div style="height: 100%; width: 55%; float: left; font-size: 17px;">
-                        <b>
-                            <p>Nguyễn Trần Anh Thắng</p>
-                            <p>Nam</p>
-                            <p>04/05/2001</p>
-                            <p>Yên Mỹ - Hưng Yên</p>
-                            <p>thanghym321@gmail.com</p>
-                            <p>0379.114.366</p>
-                        </b>
-                        <a href="https://www.facebook.com/thanghym321/">https://www.facebook.com/thanghym321/</a>
-                    </div>                    
+                </h1>
+                <img id="avatar"src="Images\123.gif" alt="Avatar">
+                <div style="float: left; position: absolute; left: 30%; top: 60px;">
+                    <p>Họ và tên:</p>
+                    <p>Giới tính:</p>
+                    <p>Ngày sinh:</p>
+                    <p>Quê quán:</p>
+                    <p>E-mail:</p>
+                    <p>Điện thoại:</p>
+                    <p>Website:</p>
                 </div>
-                <div style="width: 100%; height: 150px; background-color: seagreen;">
-                    <div style="height: 100%; width: 33,33%; float: left;">
-                        <h4>
-                            Sở thích:
-                        </h4>
-                        <ul style="font-size: 20px; float: left;">
-                            <li>
-                                Nghe nhạc
-                            </li>
-                            <li>
-                                Xem phim hài
-                            </li>
-                            <li>
-                                Du lịch
-                            </li>
+                <div style="float: left; position: absolute; left: 50%; top: 60px;">
+                    <b>
+                    <p>Nguyễn Trần Anh Thắng</p>
+                    <p>Nam</p>
+                    <p>04/05/2001</p>
+                    <p>Yên Mỹ - Hưng Yên</p>
+                    <p>thanghym321@gmail.com:</p>
+                    <p>0379.114.366</p>
+                    </b>
+                    <a href="https://www.facebook.com/thanghym321/">https://www.facebook.com/thanghym321/</a>
+                </div>
+                <div style="position: absolute; bottom: 0; left: 0; height: 150px; width: 100%;">
+                    <div style="position: absolute; left: 5%;">
+                        <h2>
+                            <b>Sở thích:</b>
+                        </h2>
+                        <ul>
+                            <li>Nghe nhạc</li>
+                            <li>Xem phim hài</li>
+                            <li>Du lịch</li>
                         </ul>
                     </div>
-                    <div style="height: 100%; width: 33,33%; float: left;">
-                        <h4>
-                            Sở trường:
-                        </h4>
-                        <ul style="font-size: 20px; float: left;">
-                            <li>
-                                Nghiên cứu
-                            </li>
-                            <li>
-                                Hát hò
-                            </li>
-                            <li>
-                                Đánh giày
-                            </li>
+                    <div style="position: absolute; left: 40%;">
+                        <h2>
+                            <b>Sở trường:</b>
+                        </h2>
+                        <ul>
+                            <li>Nghiên cứu</li>
+                            <li>Hát hò</li>
+                            <li>Đánh giày</li>
                         </ul>
                     </div>
-                    <div style="height: 100%; width: 33,33%; float: left;">
-                        <h4>
-                            Sở đoản: 
-                        </h4>
-                        <ul style="font-size: 20px; float: left;">
-                            <li>
-                                Uống bia rượu
-                            </li>
-                            <li>
-                                Giặt quần áo
-                            </li>
-                            <li>
-                                Rửa bát
-                            </li>
+                    <div style="position: absolute; left: 75%;">
+                        <h2>
+                            <b>Sở đoản:</b>
+                        </h2>
+                        <ul>
+                            <li>Uống bia rượu</li>
+                            <li>Giặt quần áo</li>
+                            <li>Rửa bát</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="box" style="width: 18%; background-color: rgb(255, 116, 255);">
-                <h2 style="margin-top: 1%;">
+            <div class="box" style="width: 18%; background-color: rgb(255, 116, 255); font-size: 20px;">
+                <h3 style="margin-top: 2px;">
                     HOẠT ĐỘNG
-                </h2>
-                <ul style="font-size: 20px;">
+                </h3>
+                <ul style=>
                     <li>
                         Thăm quan Viện bảo tàng dân tộc học
                     </li>
@@ -169,7 +146,7 @@
                 </ul>
             </div>
         </div>
-        <div class="khung" style="height: 100px; background-color: rgb(252, 253, 166);">
+        <div class="khung" style="height: 100px; background-color: rgb(252, 253, 166); padding: 10px;">
             <p style="text-align: center; font-size: 20px;">
                 Bản quyền thuộc về Nguyễn Trần Anh Thắng <br>
                 E-mail: thanghym321@gmail.com Phone: 0379114366
