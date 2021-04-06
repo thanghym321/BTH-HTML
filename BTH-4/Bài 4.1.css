@@ -1,0 +1,26 @@
+#frame{
+    height: 600px;
+    width: 960px;
+    position: relative;
+}
+#frame div{
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    border-radius: 5px;
+}
+#layer01{
+    background-color: red;
+    top: 50px;
+    left: 50px;
+}
+#layer02{
+    background-color: green;
+    top: 100px;
+    left: 100px;
+}
+#layer03{
+    background-color: blue;
+    top: 150px;
+    left: 150px;
+}

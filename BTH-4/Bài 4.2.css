@@ -1,0 +1,47 @@
+#frame{
+    height: 600px;
+    width: 960px;
+    position: relative;
+}
+#content{
+    height: 100%;
+    width: 700px;
+    float: left;
+}
+#right{
+    height: 100%;
+    width: 260px;
+    float: left;
+    background-color: rgb(220, 220, 220)
+}
+#news{
+    height: 350px;
+    width: 350px;
+    float: left;
+}
+#relate{
+    height: 300px;
+    width: 330px;
+    float: left;
+    background-color: rgb(220, 220, 220);
+    margin-left: 10px;
+}
+#news img{
+    height: 30%;
+    width: 40%;
+    float: left;
+    margin-right: 5px;
+}
+#noidung{
+    height: 100px;
+    width: 58%;
+    float: left;
+    margin-top: -25px;
+}
+#noidung h4{
+    color: blue;
+    margin-bottom: -15px;
+}
+#noidung p{
+    opacity: 0.5;
+}

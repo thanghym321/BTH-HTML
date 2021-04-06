@@ -1,0 +1,222 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#frame{
+    width: 100%;
+    height: 100%;
+}
+#header{
+    height: 190px;
+}
+#content{
+    height: 1700px;
+}
+#footer{
+    height: 100px;
+    background-color: silver;
+    margin-top: 50px;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+}
+#name span{
+    color: rgb(3, 197, 245);
+    font-size: 35px;
+    line-height: 0px;
+}
+#menu{
+    height: 50px;
+    background-color: black;
+}
+#menu ul li {
+    list-style: none;
+    float: left;
+    color: white;
+    padding: 14px 2%;
+}
+#menu ul li:hover{
+    background-color: rgb(15, 75, 128);
+}
+#slideshow{
+    height: 300px;
+    margin-bottom: 50px;
+}
+#slideshow img{
+    height: 100%;
+    width: 100%;
+}
+#content-left{
+    height: 1350px;
+    width: 70%;
+    float: left;
+    margin-right: 2%;
+}
+#content-right{
+    height: 1350px;
+    width: 28%;
+    float: left;
+    position: relative;
+}
+#news{
+    height: 50%;
+    width: 100%;
+}
+#activites{
+    height: 50%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+#title-news{
+    height: 8%;
+    width: 30%;
+    padding: 13px 30px;
+    box-sizing: border-box;
+    color: white;
+    background-color: red;
+}
+#news-left{
+    height: 90%;
+    width: 40%;
+    margin-right: 5%;
+    float: left;
+}
+#news-right{
+    height: 90%;
+    width: 55%;
+    float: left;
+    position: relative;
+}
+#news-left img{
+    height: 50%;
+    width: 100%;
+}
+.tintuc{
+    height: 23%;
+    width: 100%;
+}
+.tintuc-img{
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+.tintuc-content{
+    height: 100%;
+    width: 70%;
+    float: left;
+}
+#news-right h5{
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+}
+#title-activites{
+    height: 8%;
+    width: 30%;
+    padding: 13px 30px;
+    box-sizing: border-box;
+    color: white;
+    background-color: orange;
+}
+.activites-1{
+    height: 45%;
+    width: 47.5%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    color: green;
+}
+.activites-2{
+    height: 45%;
+    width: 47.5%;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    color: blue;
+}
+.activites-3{
+    height: 45%;
+    width: 47.5%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: green
+}
+.activites-4{
+    height: 45%;
+    width: 47.5%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: blue;
+}
+#activites img{
+    height: 76%;
+    width: 100%;
+}
+#announces{
+    height: 1000px;
+    width: 100%;
+}
+#title-announces{
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 13px 20px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#announces-top{
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20px;
+}
+#announces-bot{
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    top: 650px;
+    left: 0;
+}
+#links{
+    height: 280px;
+    width: 100%;
+    position: absolute;
+    top: 1070px;
+    left: 0;
+}
+#announces-top ul li {
+    line-height: 30px;
+    margin-top: -20px;
+    margin-left: -40px;
+    margin-bottom: 40px;
+}
+#announces-bot div{
+    height: 70px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+#title-links{
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 13px 20px;
+    box-sizing: border-box;
+}
+#links-content ul li{
+    line-height: 40px;
+    margin-left: -20px;
+}
