@@ -1,3 +1,7 @@
+body{
+    width: 80%;
+    margin: auto;
+}
 html{
     margin: 0;
     padding: 0;
@@ -185,7 +189,7 @@ html{
     height: 400px;
     width: 100%;
     position: absolute;
-    top: 650px;
+    top: 700px;
     left: 0;
 }
 #links{
@@ -200,9 +204,10 @@ html{
     margin-top: -20px;
     margin-left: -40px;
     margin-bottom: 40px;
+    font-size: 17px;
 }
 #announces-bot div{
-    height: 70px;
+    height: 60px;
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
